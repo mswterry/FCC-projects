@@ -1,0 +1,52 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<title>Survey</title>
+<head>
+  <h1 id="title">Survey Form</h1>
+</head>
+<body>
+  <p id="description">Thank you for completing this form</p>
+<form id="survey-form">
+  <label id="name-label"><input id="name" type="text" placeholder="Name" required>Please enter your name</input></label> 
+  <label id="email-label"><input id="email" type="email" required placeholder="test@myemail.com">Please enter your email</input></label>
+<label id="number-label"><input id="number" type="number" [0-9] min="1" max="11" placeholder="123456789123">Please enter your telephone number</input></label>
+<label for="do you like this form">Do you like this form?</label>
+<select id="dropdown" required>
+  <option value="1">Select one</option>
+  <option value="2">Yes</option>
+  <option Value="3">No</option>
+</select>
+<label id="bio">Please enter a description of yourself</label>
+  <textarea placeholder="I am a development student"></textarea>
+<label for="gender">What is your gender?</label>
+<input type="radio" value="1" name="gender">Male</input>
+<input type="radio" value="2" name="gender">Female</input>
+<input type="gender" value="3" name="selfdesc">Self-described</input>
+</label>
+<label for="pets">Do you have pets?
+<input type="radio" value="1" name="pets">Yes</input>
+<input type="radio" value="2" name="pets">No</input>
+</label>
+<label for="tandc">Please check the box if you agree to our terms and conditions and to sign up to our mailing list</label>
+<input type="checkbox" value="1">Yes</input>
+<input type="checkbox" value="2">No</input>
+</label>
+<button id="submit">
+  <input type="submit"></input>
+</button>
+
+
+  
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
